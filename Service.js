@@ -1,14 +1,4 @@
-let a = confirm("Хочешь прек?");
-if(a == true){
-    prompt("Вставте первое число для сложения");
-    prompt("Вставте второе число для сложения");
-    alert("Процесс подсчета.....5%");
-    alert("Процесс подсчета.....10%");
-    alert("Процесс подсчета.....15%");
-    alert("Процесс подсчета.....25%");
-    alert("Процесс подсчета.....40%");
-    alert("Процесс подсчета.....55%");
-    alert("Процесс подсчета.....90%");
-    alert("Процесс подсчета.....100%");
-    alert("Hello world!");
-}
+import Database from "better-sqlite3";
+
+const db = new Database("db/database.db");
+console.log(db.prepare("SELECT * FROM users").all());
