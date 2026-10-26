@@ -1,8 +1,10 @@
 .conteiner_Link{
     background-color: black;
+    display: flex;
+    justify-content: center; /* по горизонтали */
+    align-items: center;     /* по вертикали */
 }
 .conteiner_Link .link{
     color:brown;
     text-align: center;
-        
 }
