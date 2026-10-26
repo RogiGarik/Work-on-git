@@ -8,3 +8,15 @@
     color:brown;
     text-align: center;
 }
+.sheried_conteiner .header {
+    background-color: aqua;
+    width: 600px;
+}
+.sheried_conteiner {
+    background-color: black;
+    width: 900px;
+}
+.sheried_conteiner .header .menu {
+    background-color: brown;
+    width: 300px;
+}
